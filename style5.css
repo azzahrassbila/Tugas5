@@ -1,3 +1,88 @@
-h1 {
-    font-family: 'Courier New', Courier, monospace;
+body{
+    font-family: 'Gabarito', sans-serif;
+}
+
+h1{
+    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Gabarito', sans-serif;
+    color:black;
+}
+
+.my-paragraph {
+    font-family: 'Gabarito', sans-serif;
+    font-size: 25px;
+    color: lightslategray;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 128px;
+    position: sticky;
+    top: 0;
+    z-index: 5;
+    background-color: white;
+}
+
+/* Untuk menghilangkan garis bawah dari tautan di elemen navigasi */
+nav a {
+    text-decoration: none;
+}
+
+nav > a:hover{
+    color: darkred;
+}
+
+/* Mengatur ukuran font dan ketebalan pada teks "Lorem ipsum dolor sit amet consectetur" */
+.landing h1 {
+    font-size: 50px; /* Ganti dengan ukuran yang Anda inginkan */
+    font-weight: bold; /* Mengatur teks menjadi tebal */
+}
+
+.landing {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 128px;
+    top: 0;
+    z-index: 5;
+}
+
+img{
+    width: 450px;
+}
+
+/* Untuk kotak "More Info" */
+.bttnInfo {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #e74c3c; /* Warna latar belakang awal */
+    color: #fff; /* Warna teks awal */
+    border: 1px solid #e74c3c; /* Warna border awal */
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s; /* Efek transisi perubahan warna */
+}
+
+.bttnInfo:hover {
+    background-color: #3498db; /* Warna latar belakang saat dihover */
+    color: #fff; /* Warna teks saat dihover */
+}
+
+/* Untuk kotak "Contact Us" */
+.bttnContact {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #e74c3c; /* Warna latar belakang awal */
+    color: #fff; /* Warna teks awal */
+    border: 1px solid #e74c3c; /* Warna border awal */
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s; /* Efek transisi perubahan warna */
+}
+
+.bttnContact:hover {
+    background-color: #3498db; /* Warna latar belakang saat dihover */
+    color: #fff; /* Warna teks saat dihover */
 }
