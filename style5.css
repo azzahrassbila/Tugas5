@@ -57,16 +57,16 @@ img{
 .bttnInfo {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #e74c3c; /* Warna latar belakang awal */
+    background-color: sandybrown; /* Warna latar belakang awal */
     color: #fff; /* Warna teks awal */
-    border: 1px solid #e74c3c; /* Warna border awal */
+    border: 1px solid sandybrown; /* Warna border awal */
     text-decoration: none;
     border-radius: 5px;
     transition: background-color 0.3s, color 0.3s; /* Efek transisi perubahan warna */
 }
 
 .bttnInfo:hover {
-    background-color: #3498db; /* Warna latar belakang saat dihover */
+    background-color: chocolate; /* Warna latar belakang saat dihover */
     color: #fff; /* Warna teks saat dihover */
 }
 
@@ -74,15 +74,44 @@ img{
 .bttnContact {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #e74c3c; /* Warna latar belakang awal */
+    background-color: sandybrown; /* Warna latar belakang awal */
     color: #fff; /* Warna teks awal */
-    border: 1px solid #e74c3c; /* Warna border awal */
+    border: 1px solid sandybrown; /* Warna border awal */
     text-decoration: none;
     border-radius: 5px;
     transition: background-color 0.3s, color 0.3s; /* Efek transisi perubahan warna */
 }
 
 .bttnContact:hover {
-    background-color: #3498db; /* Warna latar belakang saat dihover */
+    background-color: chocolate; /* Warna latar belakang saat dihover */
     color: #fff; /* Warna teks saat dihover */
+}
+
+.landing {
+    display: flex;
+    align-items: center;
+}
+
+
+.text-content {
+    flex: 1;
+    padding: 20px; /* Add padding for spacing */
+}
+
+h1 {
+    font-size: 24px;
+}
+
+p {
+    font-size: 16px;
+}
+
+.merged-text {
+    display: inline;
+}
+
+.merged-text h1,
+.merged-text p {
+    display: inline;
+    margin-right: 10px; /* Add space between the elements if needed */
 }
