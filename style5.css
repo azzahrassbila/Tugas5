@@ -1,17 +1,36 @@
 body{
-    font-family: 'Gabarito', sans-serif;
+    font-family: 'Gabarito' sans-serif;
 }
 
 h1{
-    font-family: 'Cormorant Garamond', serif;
-    font-family: 'Gabarito', sans-serif;
-    color:black;
+    font-family: 'Gabarito Garamond', serif;
+    font-family: 'Gabarito' sans-serif;
+    color: black;
 }
 
 .my-paragraph {
     font-family: 'Gabarito', sans-serif;
     font-size: 25px;
     color: lightslategray;
+}
+
+.header{
+    display:  flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 128px;
+    position: sticky;
+    top: 0;
+    z-index: 5;
+    background-color: white;
+}
+
+nav a{ 
+    text-decoration: none;
+}
+
+nav > a:hover{
+    color: darkred
 }
 
 .header{
@@ -25,7 +44,6 @@ h1{
     background-color: white;
 }
 
-/* Untuk menghilangkan garis bawah dari tautan di elemen navigasi */
 nav a {
     text-decoration: none;
 }
@@ -34,10 +52,9 @@ nav > a:hover{
     color: darkred;
 }
 
-/* Mengatur ukuran font dan ketebalan pada teks "Lorem ipsum dolor sit amet consectetur" */
 .landing h1 {
-    font-size: 50px; /* Ganti dengan ukuran yang Anda inginkan */
-    font-weight: bold; /* Mengatur teks menjadi tebal */
+    font-size: 50px; 
+    font-weight: bold; 
 }
 
 .landing {
@@ -53,38 +70,36 @@ img{
     width: 450px;
 }
 
-/* Untuk kotak "More Info" */
 .bttnInfo {
     display: inline-block;
     padding: 10px 20px;
-    background-color: sandybrown; /* Warna latar belakang awal */
-    color: #fff; /* Warna teks awal */
-    border: 1px solid sandybrown; /* Warna border awal */
+    background-color: sandybrown; 
+    color: #fff; 
+    border: 1px solid sandybrown; 
     text-decoration: none;
     border-radius: 5px;
-    transition: background-color 0.3s, color 0.3s; /* Efek transisi perubahan warna */
+    transition: background-color 0.3s, color 0.3s; 
 }
 
 .bttnInfo:hover {
-    background-color: chocolate; /* Warna latar belakang saat dihover */
-    color: #fff; /* Warna teks saat dihover */
+    background-color: chocolate; 
+    color: #fff; 
 }
 
-/* Untuk kotak "Contact Us" */
 .bttnContact {
     display: inline-block;
     padding: 10px 20px;
-    background-color: sandybrown; /* Warna latar belakang awal */
-    color: #fff; /* Warna teks awal */
-    border: 1px solid sandybrown; /* Warna border awal */
+    background-color: sandybrown; 
+    color: #fff; 
+    border: 1px solid sandybrown; 
     text-decoration: none;
     border-radius: 5px;
-    transition: background-color 0.3s, color 0.3s; /* Efek transisi perubahan warna */
+    transition: background-color 0.3s, color 0.3s; 
 }
 
 .bttnContact:hover {
-    background-color: chocolate; /* Warna latar belakang saat dihover */
-    color: #fff; /* Warna teks saat dihover */
+    background-color: chocolate; 
+    color: #fff; 
 }
 
 .landing {
@@ -92,14 +107,13 @@ img{
     align-items: center;
 }
 
-
 .text-content {
     flex: 1;
-    padding: 20px; /* Add padding for spacing */
+    padding: 20px; 
 }
 
 h1 {
-    font-size: 24px;
+    font-size: 20px;
 }
 
 p {
@@ -113,5 +127,43 @@ p {
 .merged-text h1,
 .merged-text p {
     display: inline;
-    margin-right: 10px; /* Add space between the elements if needed */
+    margin-right: 10px; 
+}
+
+.kolom1{
+    display: grid;
+    float: left;
+    text-align: center;
+    justify-content: center;
+    margin: 2px;
+    padding: 15px;
+}
+.kolom2{
+    display: grid;
+    float: left;
+    text-align: center;
+    justify-content: center;
+    margin: 2px;
+    padding: 15px;
+} 
+.kolom3{
+    display: grid;
+    float: left;
+    text-align: center;
+    justify-content: center;
+    margin: 2px;
+    padding: 15px;
+  } 
+
+  table {
+    border: none;
+    position: relative;
+    justify-content: center;
+    background-color: aquamarine;
+    color: aquamarine;
+    border: 3px solid aquamarine;
+    width: 100px;
+    margin-bottom: 2px;
+    margin-left: 2px;
+    margin-right: auto;
 }
