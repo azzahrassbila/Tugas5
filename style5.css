@@ -171,3 +171,22 @@ p {
     margin-left: 2px;
     margin-right: auto;
 }
+
+.bagian {
+    text-align: center;
+    padding: 10px;
+    width: 30%; /* Mengatur lebar relatif untuk setiap bagian */
+    border: 1px solid #ccc; /* Untuk memberi garis pemisah antara elemen */
+}
+
+.bagian img {
+    width: 100%; /* Mengatur lebar gambar agar 100% lebar kotak */
+    height: auto; /* Menjaga rasio aspek gambar */
+    margin: 0 auto 10px; /* Mengatur margin bawah dan tengah gambar */
+}
+
+.Judul {
+    font-family: 'Gabarito', sans-serif;
+    font-size: 10px; /* Ukuran font */
+    font-weight: bold;
+}
