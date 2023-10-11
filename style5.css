@@ -55,7 +55,8 @@ nav > a:hover{
 }
 
 .landing h1 {
-    font-size: 50px; 
+    font-family: 'Gabarito', sans-serif;
+    font-size: 45px; 
     font-weight: bold; 
 }
 
@@ -117,6 +118,7 @@ img{
 }
 
 h1 {
+    font-family: 'Gabarito', sans-serif;
     font-size: 20px;
 }
 
@@ -187,6 +189,7 @@ p {
 
 .Judul {
     font-family: 'Gabarito', sans-serif;
-    font-size: 10px; /* Ukuran font */
+    font-size: 5px; /* Ukuran font */
     font-weight: bold;
 }
+
