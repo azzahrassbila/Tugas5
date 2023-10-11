@@ -26,6 +26,7 @@ h1{
 }
 
 nav a{ 
+    font-family: 'Gabarito', sans-serif;
     text-decoration: none;
 }
 
@@ -45,6 +46,7 @@ nav > a:hover{
 }
 
 nav a {
+    font-family: 'Gabarito', sans-serif;
     text-decoration: none;
 }
 
@@ -71,6 +73,7 @@ img{
 }
 
 .bttnInfo {
+    font-family: 'Gabarito', sans-serif;
     display: inline-block;
     padding: 10px 20px;
     background-color: sandybrown; 
@@ -87,6 +90,7 @@ img{
 }
 
 .bttnContact {
+    font-family: 'Gabarito', sans-serif;
     display: inline-block;
     padding: 10px 20px;
     background-color: sandybrown; 
